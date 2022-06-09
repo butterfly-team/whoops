@@ -242,7 +242,6 @@ class PrettyPageHandler extends Handler
             "panel_left"                 => $this->getResource("views/panel_left.html.php"),
             "panel_left_outer"           => $this->getResource("views/panel_left_outer.html.php"),
             "frame_code"                 => $this->getResource("views/frame_code.html.php"),
-            "env_details"                => $this->getResource("views/env_details.html.php"),
 
             "title"            => $this->getPageTitle(),
             "name"             => explode("\\", $inspector->getExceptionName()),

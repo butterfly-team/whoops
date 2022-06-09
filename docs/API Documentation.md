@@ -329,7 +329,7 @@ JsonResponseHandler::handle()
 
 ## <a name="handler-pretty"></a> `Whoops\Handler\PrettyPageHandler`
 
-The `PrettyPageHandler` generates a fancy, detailed error page which includes code views for all frames in the stack trace, environment details, etc. Super neat. It produces a bundled response string that does not require any further HTTP requests, so it's fit to work on pretty much any environment and framework that speaks back to a browser, without you having to explicitly hook it up to your framework/project's routing mechanisms.
+The `PrettyPageHandler` generates a fancy, detailed error page which includes code views for all frames in the stack trace, etc. Super neat. It produces a bundled response string that does not require any further HTTP requests, so it's fit to work on pretty much any environment and framework that speaks back to a browser, without you having to explicitly hook it up to your framework/project's routing mechanisms.
 
 ### Methods
 
